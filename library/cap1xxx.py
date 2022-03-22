@@ -33,6 +33,7 @@ DEFAULT_ADDR = 0x28
 
 # Supported devices
 PID_CAP1208 = 0b01101011
+PID_CAP1298 = 0b01110001
 PID_CAP1188 = 0b01010000
 PID_CAP1166 = 0b01010001
 
@@ -248,7 +249,7 @@ class CapTouchEvent():
         self.delta = delta
 
 class Cap1xxx():
-    supported = [PID_CAP1208, PID_CAP1188, PID_CAP1166]
+    supported = [PID_CAP1208, PID_CAP1298, PID_CAP1188, PID_CAP1166]
     number_of_inputs = 8
     number_of_leds   = 8
   
